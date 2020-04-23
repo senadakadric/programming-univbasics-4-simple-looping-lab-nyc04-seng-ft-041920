@@ -17,12 +17,12 @@ def loop_message_n_times(message_string, integer)
 end
 
 def output_array(array)
-  #array.each { |ele| puts ele }
+  array.each { |ele| puts ele }
 end
 
 def return_string_array(array)
-  #new_array = []
-  #array.each do |ele|
-    #new_string = ele.to_s
-    #new_array << new_string
+  new_array = []
+  array.each do |ele|
+    new_string = ele.to_s
+    new_array << new_string
 end
