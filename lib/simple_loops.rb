@@ -25,4 +25,5 @@ def return_string_array(array)
   array.each do |ele|
     new_string = ele.to_s
     new_array << new_string
+  end
 end
